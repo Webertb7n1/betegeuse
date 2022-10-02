@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="consultorio.css">
+    <title>Betegeuse</title>
+</head>
+
+<body class="home">
+    <div id="tudo">
+        <div class="topo">
+            <header class="topo_header">
+                <hgroup>
+                    <h1><a href="index.html">Betegeuse</a></h1>
+                    <h2>Soluções web</h2>
+                </hgroup>
+            </header>
+        </div>
+        <!--/.topo-->
+        <div class="principal">
+            <main>
+                <h1>Atendimento agil para seu negócio</h1>
+                <section class="principal_secaoum">
+                    <h2>Programa em JS para seu consultorio</h2>
+                    <p>Sair da sala de atendimento, ir até a recepção e chamar o paciente, um processo relativamente rápido.
+                    Repita isso diariamente, ou então em casos de multiplos atendimentos com o mesmo paciente repita esse processo várias vezes,
+                    seja em um atendimento em consultório, clínica ou guiche de algum comércio, pois é, só de imaginar já ficamos cansados... <br>
+                    E se você pudesse instalar um programa onde deixa um monitor em sua recepção e o monitor renderiza em sua tela e chama dos pacientes
+                    em um único click, <b>BEM MELHOR!</b> <br>
+                    criamos este script a fim de demonstrar que é possível, adicionar opções para adicionar o cliente à lista de espera <br>
+                    adicionar alguém como atendimento urgente, e uma opção para chamar os pacientes em sua devida ordem. <br>
+                    Não é de escopo desse exemplo criar uma interface extremamente detalhada, mas demonstar a usualidade de uma tela de recepção
+                    para controle de atendimentos em ordem, seria possível ainda adicionar uma opção de direcionamento
+                    como por exemplo <br>
+                    Paciente X: dirija-se ao guiche 9!
+                    <br>
+                    no momento vamos nos ater a praticidade técnica de um unico canal de atendimento a titulo de demonstração. <br>
+                    </p>
+                    <h2>Bem-Vindo a clínica Àgil</h2>
+                    <p>Observe o programa e faça testes</p>
+                    <img src="consultorio-atendimento.jpg" alt="Consultótio" class="normal">
+                    <h1>Consultório em atendimento</h1>
+                    <p>Insira os nomes dos pacientes para serem atendidos seguindo os seguintes critérios. <br>
+                    Nome do paciente + adicionar (insere o paciente na lista) <br>
+                    Nome do paciente + urgência (faz o paciente pular a fila e ser atendido com urgencia <br>
+                    para começar a atender clique em atender, e atenda os pacientes na ordem da lista.</p>
+                    <p>Paciente:
+                        <input type="text" id="inPaciente" autofocus>
+                        <input type="button" value="Adicionar" id="btAdicionar">
+                        <input type="button" value="Urgência" id="btUrgencia">
+                        <input type="button" value="Atender" id="btAtender">
+                    </p>
+                    <h3>Em Atendimento:
+                        <span id="outAtendimento" class="fonteAzul"></span>
+                    </h3>
+                    <pre id="outLista"></pre>
+                    <script src="atendimento-consultorio.js"></script>
+                    <div class="separacao-consultorio"></div>
+                </section>
+                <img src="script-img.jpg" alt="" id="imgscript">
+                <p>Quanto a usabilidade deste script é bem intuitiva, para empresas onde é necessário atender os pacientes ou clientes por ordem de chegada.
+                    O script em questão ajudará a criar telas em uma recepção que renderize a ordem dos clientes a serem atendidos <br>
+                    útil para chamar clientes à um guiche ou a uma sala de atendimento, facilitando assim o dia a dia da equipe de atendimento e agizilando os trabalhos.
+                </p>
+            </main>
+        </div>
+        <!--/.principal-->
+        <div class="auxiliar">
+            <nav class="auxiliar_navegacao">
+                <h2>Portfólio</h2>
+                <ul>
+                    <li><a class="corrente" href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="artigos-html.html">Artigos HTML</a></li>
+                    <li><a href="artigos-css.html">Artigos CSS</a></li>
+                    <li><a href="javascript-roadmap.html">Artigos JavaScript</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <aside class="auxiliar_parceiros">
+                <h3>Trabalhos pessoais</h3>
+                <ul class="auxiliar_parceiros_textos">
+                    <li><a href="Bhaskara_quacao.html">Equação 2º grau</a></li>
+                    <li><a href="jogo-descubra-numero.html">Descubra o numero</a></li>
+                    <li><a href="consultorio-atendimento.html">Consultório</a></li>
+                    <li><a href="catalogo-carros.html">Catálogo carros</a></li>
+                    <!--mais tres itens-->
+                </ul>
+                <div class="auxiliar_parceiros_imagens">
+                    <!--mais quatro itens-->
+                </div>
+            </aside>
+        </div>
+        <!--/.auxiliar-->
+        <div class="rodape">
+            <footer>
+                <small>Site Portfólio de: Webert Souza "betegeuse" - 2022 &copy; Todos os direitos reservados</small>
+            </footer>
+        </div>
+        <!--../.rodape-->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="descubra-o-numero.css">
+    <title>Betegeuse</title>
+</head>
+
+<body class="home">
+    <div id="tudo">
+        <div class="topo">
+            <header class="topo_header">
+                <hgroup>
+                    <h1><a href="index.html">Betegeuse</a></h1>
+                    <h2>Soluções web</h2>
+                </hgroup>
+            </header>
+        </div>
+        <!--/.topo-->
+        <div class="principal">
+            <main>
+                <h1>Jogo em JavaScript</h1>
+                <section class="principal_secaoum">
+                    <h2>Jogo de apostas de numero aleatório</h2>
+                    <p>Neste segundo exemplo, manteremos um exercicio com um nível médio de abstração, onde programa JS escolherá um número aleatório
+                    e nosso trabalho será, advinhar qual é esse número em no máximo 6 chances. <br><br>
+                    Ao final do escript que segue abaixo, se encontra uma breve explicação sobre nosso programa.
+                    </p>
+                    <h2>6 chances para 100 com JavaScript</h2>
+                    <img src="um-a-cem.jpg" alt="cartela de numeros de um a cem" class="umacem">
+                    <p>Número:
+                        <input type="text" id="inNumero" autofocus>
+                        <input type="button" value="Apostar" id="btApostar">
+                        <input type="button" value="Jogar novamente" id="btJogar" class="oculta">
+                    </p>
+                    <h3>Erros:
+                        <span id="outErros">0</span>
+                    </h3>
+                    <h3>Chances:
+                        <span id="outChances">6</span>
+                    </h3>
+                    <h3 id="outDica" class="italico">Dica: É um número entre 1 e 100</h3>  
+                    <script src="descubra-o-numero.js"></script>              
+                </section>
+                <div class="separa"></div>
+                <h2>Explicação do Escript</h2>
+                <p>Neste exemplo estruturamos um arquivo HTML com as propriedades input para obter o número apostado pelo usúario
+                    durante cada uma das 6 chances de apostas, utilizamos button para criar os botões que controlariam as sequencias
+                    do programa. <br>
+                    o Arquivo JS foi estruturado da seguinte forma: <br>
+                    três vetores foram usados para organizar o programa <br>
+                    1 variável para o número aleatório gerado pelo programa <br>
+                    1 constante para o número de chances <br>
+                    1 vetor para o número de erros <br><br>
+                    não é do escopo do site, demonstrar linha por linha o funcionamento do código, para mais informações tecnicas e exemplos
+                    visite nossa página no Git-Hub ou entre em contato, pela página inicial ou pela aba contato.
+                    Repositório com exemplo do jogo: <a href="https://github.com/Webertb7n1/Jogo-descubra-O-Numero">Jogo descubra o número</a>
+                    <img src="script-img.jpg" alt="" id="rodapeimg">
+                </p>
+            </main>
+        </div>
+        <!--/.principal-->
+        <div class="auxiliar">
+            <nav class="auxiliar_navegacao">
+                <h2>Portfólio</h2>
+                <ul>
+                    <li><a class="corrente" href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="artigos-html.html">Artigos HTML</a></li>
+                    <li><a href="artigos-css.html">Artigos CSS</a></li>
+                    <li><a href="javascript-roadmap.html">Artigos JavaScript</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <aside class="auxiliar_parceiros">
+                <h3>Trabalhos pessoais</h3>
+                <ul class="auxiliar_parceiros_textos">
+                    <li><a href="Bhaskara_quacao.html">Equação 2º grau</a></li>
+                    <li><a href="jogo-descubra-numero.html">Descubra o numero</a></li>
+                    <li><a href="consultorio-atendimento.html">Consultório</a></li>
+                    <li><a href="catalogo-carros.html">Catálogo carros</a></li>
+                    <!--mais tres itens-->
+                </ul>
+                <div class="auxiliar_parceiros_imagens">
+                    <!--mais quatro itens-->
+                </div>
+            </aside>
+        </div>
+        <!--/.auxiliar-->
+        <div class="rodape">
+            <footer>
+                <small>Site Portfólio de: Webert Souza "betegeuse" - 2022 &copy; Todos os direitos reservados</small>
+            </footer>
+        </div>
+        <!--../.rodape-->
+    </div>
+</body>
+
+</html>
