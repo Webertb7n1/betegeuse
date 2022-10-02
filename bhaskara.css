@@ -1,0 +1,6 @@
+.principal input {width: 75px; height: 35px; border: groove; border-radius: 5px; margin: 2px;}
+.principal main img {width: 115px; height:115px; border-radius: 50%; float: left;clear:both; margin: 2px 10px;}
+.principal main section img {width: 300px; height:150px; border-radius: 10px; border:dotted black;}
+#explainbhaskara {float: right;}
+#vacuobhaskara {height:500px; border: 1px dotted black; border-radius: 10px; margin: 25px 15px; text-align: center;}
+.auxiliar_parceiros_imagens img {border-radius: 10px; }

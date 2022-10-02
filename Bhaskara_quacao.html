@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="bhaskara.css">
+    <title>Betegeuse</title>
+    <style></style>
+</head>
+
+<body class="home">
+    <div id="tudo">
+        <div class="topo">
+            <header class="topo_header">
+                <hgroup>
+                    <h1><a href="index.html">Betegeuse</a></h1>
+                    <h2>Soluções web</h2>
+                </hgroup>
+            </header>
+        </div>
+        <!--/.topo-->
+        <div class="principal">
+            <main>
+                <h1>Equação de segundo grau com JS</h1>
+                <section class="principal_secaoum">
+                    <h2>Resolvendo Bhaskara</h2>
+                    <p>Neste exemplo, será usado JS (JavaScript) na construção de uma calculadora on-line que irá resolver problemas de equação de segundo grau, ou a famosa <b>Fórmula de Bhaskara</b> <br><br>
+                    para isso usaremos HTML, CSS e JS com intuito de demonstrar que com 3 tecnologias é possível se criar programas robustos na tela de seu navegador!</p>
+                    <h2>Programa de 2º Grau</h2>
+                    <img src="bhaskara-pic.jpg" alt="Fórmula de Bhaskara">
+                    <p><strong>Vamos a execução do programa</strong><br><br>Selecione os valores para A, B e C</p>
+                    <p id="icog"><input type="text" placeholder="Valor de A" id="inValorA"><input type="text" placeholder="valor de B" id="inValorB"><input type="text" placeholder="valor de C" id="inValorC"><input type="button" value="Calcular" id="btCalcular"></p>
+                    <div id="vacuobhaskara">
+                    <h3 id="outFormula"></h3>
+                    <h3 id="outContaInicio"></h3>
+                    <h3 id="outContaUm"></h3>
+                    <h3 id="outContaDois"></h3>
+                    <h3 id="outContaTresResultadoDelta"></h3>
+                    <h3 id="outCalcularX"></h3>
+                    <h3 id="outRespostaX1"></h3>
+                    <h3 id="outRespostaX2"></h3>
+                    <h2 id="outSolucao"></h2>
+                    </div>
+                    <script src="bhaskara-resolucao.js"></script>
+                </section>
+                <h3>Explicação do Script</h3>
+                <img src="bhaskara-fotografia.jpg" alt="foto de Bhaskara">
+                <p id="explainsbhskara">O arquivo HTML disponibiliza através da tag input três espaços para se inserir os valores de A, B e C
+                    que serão recuperados por um script em JavaScript que irá calcular o resultado da equação. <br> <br>
+                    Existem centenas de calculadoras de bhaskara on-line, cada uma com suas particularidades, no entanto com o mesmo objetivo.
+                    O arquivo CSS, serve no momento apenas para estilizarmos o programa, no caso apenas mudamos alguns atributos como cores dos
+                    textos de saída e tags input e button. <br> <br> <br>
+                    Caso queira verificar os aquivos JavaScript a fim de aprender como criar sua própria calculadora, visite a página do <a href="https://github.com/Webertb7n1/Bhaskara-2-grau-equacao">Git-Hub</a>.
+                </p>
+            </main>
+        </div>
+        <!--/.principal-->
+        <div class="auxiliar">
+            <nav class="auxiliar_navegacao">
+                <h2>Portfólio</h2>
+                <ul>
+                    <li><a class="corrente" href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="artigos-html.html">Artigos HTML</a></li>
+                    <li><a href="artigos-css.html">Artigos CSS</a></li>
+                    <li><a href="javascript-roadmap.html">Artigos JavaScript</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <aside class="auxiliar_parceiros">
+                <h3>Trabalhos pessoais</h3>
+                <ul class="auxiliar_parceiros_textos">
+                    <li><a href="Bhaskara_quacao.html">Equação 2º grau</a></li>
+                    <li><a href="jogo-descubra-numero.html">Descubra o numero</a></li>
+                    <li><a href="consultorio-atendimento.html">Consultório</a></li>
+                    <li><a href="catalogo-carros.html">Catálogo carros</a></li>
+                    <!--mais tres itens-->
+                </ul>
+                <div class="auxiliar_parceiros_imagens">
+                    <h3>Partiu calcular!</h3>
+                    <img src="bhaskara-fotografia2.jpg" alt="imgagem Bhaskara">
+                    <img src="bhaskara-fotografia3.jpg" alt="imagem Bhaskara">
+                    <!--mais quatro itens-->
+                    <p>Bhaskara (1114-1185) foi um matemático, astrólogo, astrônomo e professor indiano. Se tornou conhecido por ter criado a fórmula matemática aplicada na equação de 2° grau, embora haja controvérsias quanto a esse fato.</p>
+                </div>
+            </aside>
+        </div>
+        <!--/.auxiliar-->
+        <div class="rodape">
+            <footer>
+                <small>Site Portfólio de: Webert Souza "betegeuse" - 2022 &copy; Todos os direitos reservados</small>
+            </footer>
+        </div>
+        <!--../.rodape-->
+    </div>
+</body>
+
+</html>

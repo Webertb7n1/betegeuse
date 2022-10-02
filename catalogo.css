@@ -1,0 +1,10 @@
+.carros  {width: 80%;}
+.carros img {width: 200px; height: 150px; border-radius: 5px; padding: 0; margin: 0;}
+.carros p {margin: 0;}
+.carros div {border: 1px solid transparent;width:200px; height: 350px;}
+.carone {float: left;} 
+.cartwo {float: right;}
+.carfive {float: left;}
+.carsix {float: right;}
+.separacao-catalogo {width: 0; height: 500px;}
+#imgscript {width: 100%; height: 25%; border-radius: 5px;}

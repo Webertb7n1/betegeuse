@@ -1,0 +1,64 @@
+*,
+*:before,
+*:after {
+    /*regras para alterar o box model padrão*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clear {clear:both;} /*Classe para "limpar" elementos flutuados*/
+body {font: 18px/1.4 arial, sans-serif; color: #333; background: black; /*cor de fundo cinza*/} 
+#tudo {width:100%; max-width: 1200px; min-width: 760px; margin: 0 auto; background: #fff;/*cor de fundo branca*/} /*centraliza a página de 960px de largura*/
+#tudo p {color:black;}
+h1, h2, h3 , h4, h5, h6 {color: #036;}
+.topo_header {background: #036; /*cor de fundo para o topo azul*/ padding: 5px 20px;}
+
+.topo_header h1 {font-size: 36px; text-align: right; margin: 4px 0 2px 0;}
+.topo_header a {color: #fff; text-decoration: none;}
+.topo_header h2 {font-size: 20px; text-align: right; margin: 2px 0 4px 0; color: #fff;}
+.principal {width: 80%;  float: right; padding-right: 15px;} /*flutua à direita*/ /*padding declara margens para os conteúdos das colunas*/
+.auxiliar { width:18.3333%; float: left; padding-left: 15px;} /*flutua à esquerda*/  /*padding declara margens para os conteúdos das colunas*/
+.rodape { clear: both;background: #036; /*cor de fundo azul para o rodapé*/ color:#fff; padding: 5px 0; text-align: center;} /*limpa as colunas flutuadas e define altura do rodapés*/
+a {text-decoration: none;} 
+.auxiliar_navegacao h2 {text-align: center; color: #036; background-color: white; display:block;} .auxiliar_navegacao h2 a {color: #036; background: white;}.auxiliar_navegacao h2 a:hover {background: white;}/*centraliza o titulo do menu*/
+ul {list-style: none; padding: 0; margin: 0;} /*ver comentários a seguir*/
+.auxiliar_navegacao a {
+    background: #036;
+    color:white;
+    display: block;
+    margin-bottom: 1px;
+    line-height: 2;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+.auxiliar_navegacao a:hover {
+    background: blueviolet; /*efeito rollover*/
+}
+.auxiliar_parceiros_textos {
+    margin: 30px 0; /*cria espaçamento acima e abaixo*/
+    text-align: center; /*centraliza os textos dos links*/
+}
+.auxiliar_parceiros_textos li {
+    margin-bottom: 3px; /* cria espaçamento entre links*/
+    background: #eee; /*cor de fundo dos links*/
+}
+.auxiliar_parceiros_textos a {
+    padding: 8px 0;
+    color: #333; /*cor dos textos dos links*/
+    display: block; /*toda a area do link será clicavel*/
+}
+.auxiliar_parceiros_imagens img {
+    width: 90px; height: 115px;
+}
+.portF {width: 100%; height: 25%;}
+.portF img {width: 30%; height: 15%;}
+.portF img:nth-child(2) {width: 300px; height: 250px; float:right; clear:both;}
+.portF img:nth-child(3) {width: 300px; height: 250px; float:left;clear:both;}
+.portF img:hover {width: 350px; height: 300px;}
+.separacao-port {width:0; height: 100px;}
+.contato_imgs {width: 100%; height: 25%; margin: 25px;}
+.contato_imgs img {width: 65px; height: 65px; margin: 50px; border-radius: 50%;}
+#script-contato {width: 100%; margin-top: 200px;}
+.auxiliar_navegacao li:nth-child(3) a {display:none;}
+.auxiliar_navegacao li:nth-child(4) a {display:none;}
+.auxiliar_navegacao li:nth-child(5) a {display:none;}
