@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 .clear {clear:both;} /*Classe para "limpar" elementos flutuados*/
-body {font: 18px/1.4 arial, sans-serif; color: #333; background: black; /*cor de fundo cinza*/} 
+body {font: 18px/1.4 arial, sans-serif; color: #333; background: white; /*cor de fundo cinza*/} 
 #tudo {width:100%; max-width: 1200px; min-width: 760px; margin: 0 auto; background: #fff;/*cor de fundo branca*/} /*centraliza a página de 960px de largura*/
 #tudo p {color:black;}
 h1, h2, h3 , h4, h5, h6 {color: #036;}
