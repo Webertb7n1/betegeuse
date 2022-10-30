@@ -59,6 +59,6 @@ ul {list-style: none; padding: 0; margin: 0;} /*ver comentários a seguir*/
 .contato_imgs {width: 100%; height: 25%; margin: 25px;}
 .contato_imgs img {width: 65px; height: 65px; margin: 50px; border-radius: 50%;}
 #script-contato {width: 100%; margin-top: 200px;}
-.auxiliar_navegacao li:nth-child(3) a {display:none;}
+
 .auxiliar_navegacao li:nth-child(4) a {display:none;}
 .auxiliar_navegacao li:nth-child(5) a {display:none;}
